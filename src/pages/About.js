@@ -18,10 +18,10 @@ const About = () => {
                 <AboutRow>
                     <AboutImage src={AboutImg} alt='photo'  
                     data-aos="fade-right"
-                    data-aos-offset="400"
+                    data-aos-offset="500"
                     data-aos-easing="ease-in-sine"/>
                     <AboutText data-aos="fade-left"
-                    data-aos-offset="400"
+                    data-aos-offset="500"
                     data-aos-easing="ease-in-sine">
                         <Heading>Hi! I'm Jonh Don</Heading>
                         <SubTitle>I am a travel blogger</SubTitle>
