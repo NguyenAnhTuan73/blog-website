@@ -1,5 +1,5 @@
 {
-  "homepage": "http://NguyenAnhTuan73.github.io/Blog-Website",
+  "homepage": "https://NguyenAnhTuan73.github.io/blog-website/",
   "name": "blog-website",
   "version": "0.1.0",
   "private": true,
@@ -18,12 +18,13 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
