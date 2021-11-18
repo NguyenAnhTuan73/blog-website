@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { GlobalStyle } from './data';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -15,12 +15,12 @@ function App() {
     
     <Router>
       <Navbar/>
-      <Routes>
-        <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/blog' element={<Blog/>}/>
-        <Route exact path='/about' element={<About/>}/>
-        <Route exact path='/contact' element={<Contact/>}/>
-      </Routes>
+      <Switch>
+        <Route exact path='/'> <Home/> </Route>
+        <Route  path='/blog'> <Blog/> </Route>
+        <Route  path='/about'> <About/> </Route>
+        <Route  path='/contact'> <Contact/> </Route>
+      </Switch>
       <Footer/>
       
     </Router>
