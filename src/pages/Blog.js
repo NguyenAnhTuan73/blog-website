@@ -68,6 +68,7 @@ const CardImg = styled.img`
 width: 100%;
 max-height: 350px;
 object-fit: cover;
+border-radius: 0.5rem;
 `;
 const CardDate = styled.span`
 color: #777;

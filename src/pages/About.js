@@ -16,10 +16,15 @@ const About = () => {
         <AboutSection>
             <Container>
                 <AboutRow>
+                    <AboutLeft>
+
                     <AboutImage src={AboutImg} alt='photo'  
                     data-aos="fade-right"
                     data-aos-offset="500"
-                    data-aos-easing="ease-in-sine"/>
+                    data-aos-easing="ease-in-sine"
+                    />
+                    </AboutLeft>
+
                     <AboutText data-aos="fade-left"
                     data-aos-offset="500"
                     data-aos-easing="ease-in-sine">
@@ -61,10 +66,15 @@ const AboutRow = styled.div`
     }
 
 `;
+const AboutLeft = styled.div`
+    padding:0 10px;
+`;
 const AboutImage = styled.img`
-    width: 40%;
+    width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 0.5rem;
+    margin: 0 auto;
     @media screen and (max-width: 960px){
         display: block;
         margin: 0 auto;
@@ -73,7 +83,7 @@ const AboutImage = styled.img`
     }
 `;
 const AboutText = styled.div`
-    padding: 20px;
+    padding: 0 20px;
     color: #fff;
 
 `;
@@ -87,6 +97,8 @@ const SubTitle = styled.span`
 const Text = styled.p`
     text-align: justify;
     margin: 20px 0;
+    line-height: 1.2;
+    font-size: 1.1rem;
 `;
 
 export default About;

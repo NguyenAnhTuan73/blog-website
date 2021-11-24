@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import { GlobalStyle } from './data';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import About from './pages/About';
