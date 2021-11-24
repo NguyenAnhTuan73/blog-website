@@ -11,6 +11,7 @@ import blogimg9 from '../src/assets/img9.jpg';
 import blogimg10 from '../src/assets/img10.jpg';
 import blogimg11 from '../src/assets/img11.jpg';
 import blogimg12 from '../src/assets/img12.jpg';
+import { logRoles } from "@testing-library/dom";
 
 export const Container = styled.div`
     width: 100%;
@@ -31,84 +32,84 @@ export const BlogData = [
     {
         id: 1,
         title: 'Paris, France',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg1,
         date: 'November, 13, 2021'
     },
     {
         id: 2,
         title: 'Wadi Musa, Jordan',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg2,
         date: 'November, 13, 2021'
     },
     {
         id: 3,
         title: 'Khwaeng Wat Arun, Thailand',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg3,
         date: 'November, 13, 2021'
     },
     {
         id: 4,
         title: 'Abud, Indonesia',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg4,
         date: 'November, 13, 2021'
     },
     {
         id: 5,
         title: 'New York, United States',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg5,
         date: 'November, 13, 2021'
     },
     {
         id: 6,
         title: 'Marrakesh, Marocco',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg6,
         date: 'November, 13, 2021'
     },
     {
         id: 7,
         title: 'Banaue, Philippines',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg7,
         date: 'November, 13, 2021'
     },
     {
         id: 8,
         title: 'Macows, Rusia',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg8,
         date: 'November, 13, 2021'
     },
     {
         id: 9,
         title: 'Alaska, Canada',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg9,
         date: 'November, 13, 2021'
     },
     {
         id: 10,
         title: 'HalongBay, VietNam',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg10,
         date: 'November, 13, 2021'
     },
     {
         id: 11,
         title: 'Schwangau, Deutschland',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg11,
         date: 'November, 13, 2021'
     },
     {
         id: 12,
         title: 'Roma, Italy',
-        description: 'What is HTML and why should you learn it?',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quam numquam odio? Repudiandae ut adipisci iste, quis excepturi earum nobis!',
         image: blogimg12,
         date: 'November, 13, 2021'
     },

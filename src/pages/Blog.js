@@ -78,7 +78,7 @@ font-size: 0.9rem;;
 
 const CardHeading = styled.h3`
 font-size: 1.5rem;
-margin: 10px 0;
+margin-top: 10px ;
 height: 3rem;
 &:hover {
     color: #4b59f7;
@@ -89,7 +89,6 @@ height: 3rem;
 
 const CardDesc = styled.p`
 font-size: 1rem;
-padding-top: 10px;
 line-height: 1.5rem;
 max-height: 8rem;
 display: -webkit-box;
