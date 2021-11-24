@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     
-    <Router>
+    <Router basename={window.location.pathname || ''}>
       <Navbar/>
       <Switch>
         <Route exact path='/'> <Home/> </Route>
