@@ -20,7 +20,7 @@ const Navbar = () => {
                         <h2>STORM</h2>
                     </NavLogo>
                     <MobileIcon onClick={handleClick} >
-                        {click ? <FaBars/> :  <FaTimes/> }
+                        {click ? <FaTimes/> :  <FaBars/> }
                     </MobileIcon>
                     <NavMenu onClick={handleClick} click={click}>
                         <NavItem><NavLinks to='/'>Home</NavLinks></NavItem>
@@ -37,8 +37,8 @@ const Nav = styled.div`
     background-color: #000;
     height: 60px;
     width: 100vw;
-    display: flex;
-    justify-content: center;
+    
+
     align-items: center;
     position: sticky;
     top: 0;
@@ -101,8 +101,8 @@ const NavMenu = styled.ul`
         height: 50vh;
         position: absolute;
         top: 60px;
-        left: ${({click})=> (click ? '-100%' : 0) };
-        opacity: ${({click})=> (click ? 0 : 1) };
+        left: ${({click})=> (click ? 0 : '-100%') };
+        opacity: ${({click})=> (click ? 1 : 0) };
         background-color: #000;
         transition: 0.5s;
     }

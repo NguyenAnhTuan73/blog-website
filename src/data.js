@@ -14,16 +14,16 @@ import blogimg12 from '../src/assets/img12.jpg';
 import { logRoles } from "@testing-library/dom";
 
 export const Container = styled.div`
-    width: 100%;
+    height:100%;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 50px;
     padding-right: 50px;
     z-index: 1;
-    @media screen and (max-width:991px) {
-        padding-left: 30px;
-        padding-right: 30px;
+    @media screen and (max-width:960px) {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 `;
